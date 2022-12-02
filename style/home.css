@@ -157,7 +157,7 @@ article {
 .IMG {
   width: 600px;
   transition: var(--transition);
-  margin: 300px;
+  margin: 30px;
 }
 .IMG:hover {
   transform: scale(1.05);
