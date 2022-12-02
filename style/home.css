@@ -157,6 +157,7 @@ article {
 .IMG {
   width: 600px;
   transition: var(--transition);
+  margin: 10px;
 }
 .IMG:hover {
   transform: scale(1.05);
@@ -223,7 +224,7 @@ footer {
   }
   .Home h1 {
     padding-top: 0;
-    margin-top: 0;
+    margin-top: 50px;
   }
   .card_2 {
     display: grid;
@@ -242,6 +243,7 @@ footer {
   .IMG {
     width: 400px;
     transition: var(--transition);
+    margin: 10px;
   }
 }
 
