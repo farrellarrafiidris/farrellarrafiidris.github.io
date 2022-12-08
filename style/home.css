@@ -77,12 +77,18 @@ li a:hover {
   width: 100%;
 }
 
-.Home h1 {
+.nama {
   color: greenyellow;
   font-family: var(--font);
   padding-top: 30px;
-  margin-top: 50px;
+  margin: 25px 0;
+  font-weight: bold;
+  font-size: 35px;
 }
+.desc {
+  font-size: 5px;
+}
+
 .Home p {
   color: greenyellow;
   font-family: var(--font);
@@ -107,7 +113,7 @@ article {
   gap: 1px;
   border-radius: 100px;
   transition: var(--transition);
-  border: 5px solid greenyellow;
+  /* border: 5px solid greenyellow; */
   margin-top: 100px;
   /* width: 80%; */
   align-content: center;
@@ -115,7 +121,6 @@ article {
 
 .card_img {
   width: 30%;
-  border-radius: 30%;
   padding: 20px;
   text-align: left;
 }
@@ -148,11 +153,20 @@ article {
   margin-bottom: 100px;
 }
 
-.certificate_header {
+.certificate_header_1 {
   font-weight: bold;
   font-family: var(--font);
   font-size: 50px;
   margin-bottom: 20px;
+  color: white;
+}
+
+.certificate_header_2 {
+  font-weight: bold;
+  font-family: var(--font);
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #adff2f;
 }
 .IMG {
   width: 600px;
@@ -222,9 +236,12 @@ footer {
   body {
     width: 100%;
   }
-  .Home h1 {
-    padding-top: 0;
-    margin-top: 50px;
+  .nama {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #adff2f;
   }
   .card_2 {
     display: grid;
@@ -251,8 +268,12 @@ footer {
   body {
     width: 100%;
   }
-  .nama h1 {
+  .nama {
     margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #adff2f;
   }
   .card_2 {
     display: grid;
@@ -284,8 +305,16 @@ footer {
   body {
     width: 100%;
   }
-  .nama h1 {
+  .nama {
     margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #adff2f;
+  }
+
+  .desc {
+    font-size: 10px;
   }
   .card_2 {
     display: grid;
@@ -307,7 +336,7 @@ footer {
   }
 
   .card_img {
-    height: 400px;
+    height: 300px;
     width: 200px;
     padding-top: 50px;
   }
