@@ -120,8 +120,7 @@ article {
 }
 
 .card_img {
-  width: 30%;
-  padding: 20px;
+  width: 20%;
   text-align: left;
 }
 
@@ -261,7 +260,7 @@ footer {
     width: 400px;
     transition: var(--transition);
     margin: 10px;
-    padding: 50px 100px;
+    padding: px px;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -293,7 +292,6 @@ footer {
     width: 500px;
     transition: var(--transition);
     margin: 10px;
-    padding: 50px 100px;
   }
 }
 
@@ -387,5 +385,137 @@ footer {
     height: 300px;
     width: 200px;
     padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  body {
+    width: 100%;
+  }
+  .nama {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #adff2f;
+  }
+
+  .desc {
+    font-size: 10px;
+  }
+
+  .certificate_header_1 {
+    font-weight: bold;
+    font-family: var(--font);
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #adff2f;
+  }
+
+  .certificate_header_2 {
+    font-weight: bold;
+    font-family: var(--font);
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #adff2f;
+  }
+  .desc {
+    font-size: 10px;
+  }
+  .card_2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+  }
+  .card_3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .IMG:hover {
+    transform: scale(1.1);
+  }
+
+  .IMG {
+    width: 100px;
+    transition: var(--transition);
+  }
+
+  .card_img {
+    height: 300px;
+    width: 200px;
+    padding-top: 50px;
+  }
+
+  .desc_setif {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+  .nama {
+    margin-top: 0;
+    font-size: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #adff2f;
+  }
+
+  .desc {
+    font-size: 10px;
+  }
+
+  .certificate_header_1 {
+    font-weight: bold;
+    font-family: var(--font);
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #adff2f;
+  }
+
+  .certificate_header_2 {
+    font-weight: bold;
+    font-family: var(--font);
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #adff2f;
+  }
+  .desc {
+    font-size: 10px;
+  }
+  .card_2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+  }
+  .card_3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card_image {
+    width: 100px;
+    padding: 0;
+  }
+  .IMG:hover {
+    transform: scale(1.1);
+  }
+
+  .IMG {
+    width: 100px;
+    transition: var(--transition);
+  }
+
+  .card_img {
+    height: 300px;
+    width: 200px;
+    padding-top: 50px;
+  }
+
+  .desc_setif {
+    font-size: 10px;
   }
 }
