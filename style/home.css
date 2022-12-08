@@ -264,6 +264,38 @@ footer {
     padding: 50px 100px;
   }
 }
+@media screen and (max-width: 1280px) {
+  body {
+    width: 100%;
+  }
+  .nama {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #adff2f;
+  }
+  .card_2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+  }
+  .card_3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .IMG:hover {
+    transform: scale(1.2);
+    transition: var(--transition);
+  }
+
+  .IMG {
+    width: 500px;
+    transition: var(--transition);
+    margin: 10px;
+    padding: 50px 100px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   body {
