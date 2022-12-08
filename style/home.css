@@ -120,7 +120,8 @@ article {
 }
 
 .card_img {
-  width: 20%;
+  width: 30%;
+  padding: 20px;
   text-align: left;
 }
 
@@ -150,6 +151,11 @@ article {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin-bottom: 100px;
+}
+
+.header_home {
+  margin-top: 50px;
+  color: #adff2f;
 }
 
 .certificate_header_1 {
@@ -483,8 +489,8 @@ footer {
     margin-bottom: 20px;
     color: #adff2f;
   }
-  .desc {
-    font-size: 10px;
+  .desc_bio {
+    font-size: 5px;
   }
   .card_2 {
     display: grid;
@@ -510,12 +516,18 @@ footer {
   }
 
   .card_img {
-    height: 300px;
-    width: 200px;
-    padding-top: 50px;
+    height: 100px;
+    width: 70px;
   }
 
   .desc_setif {
     font-size: 10px;
+  }
+
+  .header_about {
+    font-size: 20px;
+  }
+  .about_info {
+    font-size: 20px;
   }
 }
