@@ -158,7 +158,7 @@ article {
   font-family: var(--font);
   font-size: 50px;
   margin-bottom: 20px;
-  color: white;
+  color: #adff2f;
 }
 
 .certificate_header_2 {
@@ -253,7 +253,7 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
   .IMG:hover {
-    transform: scale(2);
+    transform: scale(1.2);
     transition: var(--transition);
   }
 
@@ -261,6 +261,7 @@ footer {
     width: 400px;
     transition: var(--transition);
     margin: 10px;
+    padding: 50px 100px;
   }
 }
 
@@ -313,6 +314,21 @@ footer {
     color: #adff2f;
   }
 
+  .certificate_header_1 {
+    font-weight: bold;
+    font-family: var(--font);
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #adff2f;
+  }
+
+  .certificate_header_2 {
+    font-weight: bold;
+    font-family: var(--font);
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #adff2f;
+  }
   .desc {
     font-size: 10px;
   }
@@ -327,11 +343,11 @@ footer {
   }
 
   .IMG:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   .IMG {
-    width: 400px;
+    width: 200px;
     transition: var(--transition);
   }
 
