@@ -85,8 +85,9 @@ li a:hover {
   font-weight: bold;
   font-size: 35px;
 }
-.desc {
+.desc_bio {
   font-size: 5px;
+  padding: 20px;
 }
 
 .Home p {
@@ -366,8 +367,14 @@ footer {
     margin-bottom: 20px;
     color: #adff2f;
   }
-  .desc {
+  .desc_bio {
     font-size: 10px;
+    padding: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
   }
   .card_2 {
     display: grid;
@@ -384,7 +391,7 @@ footer {
   }
 
   .IMG {
-    width: 200px;
+    width: 300px;
     transition: var(--transition);
   }
 
@@ -407,8 +414,9 @@ footer {
     color: #adff2f;
   }
 
-  .desc {
+  .desc_bio {
     font-size: 10px;
+    padding: 20px;
   }
 
   .certificate_header_1 {
@@ -426,8 +434,9 @@ footer {
     margin-bottom: 20px;
     color: #adff2f;
   }
-  .desc {
+  .desc_bio {
     font-size: 10px;
+    padding: 20px;
   }
   .card {
     display: flex;
