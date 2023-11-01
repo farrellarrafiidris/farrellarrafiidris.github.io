@@ -1,203 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portofolio | Farrell Arrafi Idris</title>
-    <link rel="stylesheet" href="style/home.css" />
+
+    <!-- Bootstraps -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    /> -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="/image/favcon.png" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kollektif&display=swap"
+    />
+
+    <link rel="stylesheet" href="index.css" />
   </head>
+
   <body>
     <!-- navbar -->
     <nav>
-      <ul>
-        <li class="nav_buthome"><a href="#home">Home</a></li>
-        <li class="nav_butabout"><a href="#about">About</a></li>
+      <div style="font-family: 'Kollektif', sans-serif" class="logo">
+        Farrell Arrafi Idris
+      </div>
+      <ul id="navbarLinks">
+        <li class="navbar-item"><a href="#">Home</a></li>
+        <li class="navbar-item"><a href="#project">Project</a></li>
+        <li class="navbar-item"><a href="#certi">Certificate</a></li>
+        <li class="navbar-item"><a href="#expe">Experience</a></li>
+        <li class="navbar-item"><a href="#about">About</a></li>
       </ul>
+
+      <div class="navbar-toggle" id="navbarToggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
     </nav>
-    <!-- home====== -->
+    <!-- end navbar -->
     <div class="container">
-      <div class="Home">
-        <div class="header_home">
-          <h1>Portofolio</h1>
-          <p>SKL IT</p>
-        </div>
-        <aside>
-          <article>
-            <div class="card">
-              <div class="card_R">
-                <figure>
-                  <img src="image/pasphoto.jpg" alt="" class="card_img" />
-                </figure>
+      <section class="home_section">
+          <!-- home -->
+          <div class="home area-padding">
+            <div class="home-image">
+              <img src="/image/Photo.png" alt="">
+            </div>
+
+            <div class="text-home">
+              <h1><span class="type-animation" style="color: black;"></span></h1>
+              <h4 class="desc">I'm Farrell Arrafi Idris</h4>
+              <h4 class="desc">I'm Software Engineer</h4>
+              <h4 class="desc">Based in Lampung, Indonesia</h4>
+
+              <div class="button">
+                <a href="https://linktr.ee/farrrell_arrafi_idris" class="btn-next">Follow Me</a>
               </div>
-              <div class="card_L">
-                <h3 class="nama">Farrell Arrafi Idris</h3>
-                <p class="desc_bio">
-                  Mempunyai harapan besar di sekolah IDN Boarding School Bogor,
-                  <br />
-                  salah satu dari harapannya adalah dapat membanggakan kedua
-                  orang tua dan keluarga, <br />
-                  serta mendapat kesuksesan dunia dan juga di akhirat Amiin.
-                  <br /><br />
-                  Alamat :Bandar Lampung,Jl Kh Masmansur No.103 <br />
-                  Gender :Laki Laki <br />
-                  No. :+62812
+            </div>
+          </div>
+      </section>
+      <!-- end home -->
+
+
+
+
+
+      <!-- Project -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,64L15,96C30,128,60,192,90,202.7C120,213,150,171,180,170.7C210,171,240,213,270,234.7C300,256,330,256,360,229.3C390,203,420,149,450,117.3C480,85,510,75,540,101.3C570,128,600,192,630,186.7C660,181,690,107,720,101.3C750,96,780,160,810,160C840,160,870,96,900,112C930,128,960,224,990,218.7C1020,213,1050,107,1080,85.3C1110,64,1140,128,1170,144C1200,160,1230,128,1260,133.3C1290,139,1320,181,1350,208C1380,235,1410,245,1425,250.7L1440,256L1440,0L1425,0C1410,0,1380,0,1350,0C1320,0,1290,0,1260,0C1230,0,1200,0,1170,0C1140,0,1110,0,1080,0C1050,0,1020,0,990,0C960,0,930,0,900,0C870,0,840,0,810,0C780,0,750,0,720,0C690,0,660,0,630,0C600,0,570,0,540,0C510,0,480,0,450,0C420,0,390,0,360,0C330,0,300,0,270,0C240,0,210,0,180,0C150,0,120,0,90,0C60,0,30,0,15,0L0,0Z"></path></svg>
+          <section class="project_section " style="padding: 3rem;" id="project">
+            <h2 class="project_main_title">My Project</h2>
+
+            <div class="project_container">
+              <div class="project">
+                <img src="/image/Project/SunnahQuApp.png" data-aos="fade-right">
+                <p class="project_description" data-aos="fade-left">
+                  <span class="project_title">SunnahQuApp</span>
+                  <br>
+                  This is an application that can help Muslims to always remember Allah SWT, this application is made in Kotlin language, and this application has several features such as, morning and evening Dhikr, Qauliyah Dhikr, etc.s
                 </p>
               </div>
-            </div>
-          </article>
-        </aside>
-        <h1 class="certificate_header_1 {">Dicoding Certificate</h1>
-        <div class="card_2">
-          <div class="sertif">
-            <img
-              src="image/Sertifikat Dicoding Bahaca C_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">Sertifikat Dicoding Bahasa C</p>
-          </div>
-          <div class="sertif">
-            <img
-              src="image/Sertifikat Dicoding Front-End Web_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">Sertifikat Dicoding Front-End Web</p>
-          </div>
-          <div class="sertif">
-            <img
-              src="image/Sertifikat Dicoding JavaScript_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">Sertifikat Dicoding JavaScript</p>
-          </div>
-          <div class="sertif">
-            <img
-              src="image/Sertifikat Dicoding Web_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">Sertifikat Dicoding Pemorgraman Web</p>
-          </div>
-        </div>
-        <div class="card_3">
-          <div class="">
-            <img
-              src="image/Setifikat Dicoding Prinsip S.O.L.I.D_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">Sertifikat Dicoding Prinsip S.O.L.I.D</p>
-          </div>
-        </div>
-        <h1 class="certificate_header_2">Cousera Certificate</h1>
-        <div class="card_2">
-          <div class="sertif">
-            <img
-              src="image/Coursera Car Transport App_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">Sertifikat Coursera Car Transport</p>
-          </div>
-          <div class="sertif">
-            <img
-              src="image/Coursera Designing Low Fidelity Prototype In Figma_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">Sertifikat Coursera Designing Low</p>
-          </div>
-          <div class="sertif">
-            <img
-              src="image/Coursera Get Started With Adobe Ilustrator_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">Sertifikat Coursera Get Started With Figma</p>
-          </div>
-          <div class="sertif">
-            <img
-              src="image/Coursera Get Started With Adobe Ilustrator_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">
-              Sertifikat Coursera <br />
-              Get Started With Adobe Ilustrator
-            </p>
-          </div>
-        </div>
-        <div class="card_3">
-          <div class="">
-            <img
-              src="image/Coursera Work With Components In Figma_page-0001.jpg"
-              alt=""
-              class="IMG"
-            />
-            <p class="desc_setif">
-              Sertifikat Coursera <br />
-              Work With Components In Figma
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- About  -->
-      <div class="about">
-        <div id="#about"></div>
-        <div class="home_wave">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-              fill="#000"
-              fill-opacity="1"
-              d="M0,256L0,64L36.9,64L36.9,128L73.8,128L73.8,0L110.8,0L110.8,256L147.7,256L147.7,224L184.6,224L184.6,32L221.5,32L221.5,64L258.5,64L258.5,0L295.4,0L295.4,224L332.3,224L332.3,256L369.2,256L369.2,192L406.2,192L406.2,128L443.1,128L443.1,32L480,32L480,192L516.9,192L516.9,160L553.8,160L553.8,256L590.8,256L590.8,224L627.7,224L627.7,64L664.6,64L664.6,256L701.5,256L701.5,96L738.5,96L738.5,96L775.4,96L775.4,256L812.3,256L812.3,224L849.2,224L849.2,288L886.2,288L886.2,192L923.1,192L923.1,224L960,224L960,96L996.9,96L996.9,64L1033.8,64L1033.8,288L1070.8,288L1070.8,64L1107.7,64L1107.7,32L1144.6,32L1144.6,224L1181.5,224L1181.5,192L1218.5,192L1218.5,256L1255.4,256L1255.4,96L1292.3,96L1292.3,0L1329.2,0L1329.2,64L1366.2,64L1366.2,256L1403.1,256L1403.1,96L1440,96L1440,0L1403.1,0L1403.1,0L1366.2,0L1366.2,0L1329.2,0L1329.2,0L1292.3,0L1292.3,0L1255.4,0L1255.4,0L1218.5,0L1218.5,0L1181.5,0L1181.5,0L1144.6,0L1144.6,0L1107.7,0L1107.7,0L1070.8,0L1070.8,0L1033.8,0L1033.8,0L996.9,0L996.9,0L960,0L960,0L923.1,0L923.1,0L886.2,0L886.2,0L849.2,0L849.2,0L812.3,0L812.3,0L775.4,0L775.4,0L738.5,0L738.5,0L701.5,0L701.5,0L664.6,0L664.6,0L627.7,0L627.7,0L590.8,0L590.8,0L553.8,0L553.8,0L516.9,0L516.9,0L480,0L480,0L443.1,0L443.1,0L406.2,0L406.2,0L369.2,0L369.2,0L332.3,0L332.3,0L295.4,0L295.4,0L258.5,0L258.5,0L221.5,0L221.5,0L184.6,0L184.6,0L147.7,0L147.7,0L110.8,0L110.8,0L73.8,0L73.8,0L36.9,0L36.9,0L0,0L0,0Z"
-            ></path>
-          </svg>
-        </div>
 
-        <div class="about_box">
-          <p class="header_about">About Me</p>
-          <p class="about_info">
-            Halo, Nama saya Farrell Arrafi Idris kalian bisa panggil saya
-            Farrell saya lahir pada bulan november tanggal 5 tahun 2006 di
-            Bandar Lampung
-          </p>
-        </div>
-
-        <div>
-          <p>karya saya</p>
-          <div class="card_2">
-            <div>
-              <img src="image/Group 28.png" width="200px" alt="" class="UI" />
-              <p>
-                Ini adalah karya yang cukup bagus buat saya karna ini adalah
-                karya yang saya bikin dalam 5 hari,ini adalah aplikasi yang
-                berfungsi untuk mempermudah berbelanja makan
-              </p>
             </div>
-            <div>
-              <img src="image/Group 13.png" width="200px" alt="" class="UI" />
-              <p>
-                Ini adalah karya sayang yang saya siapkan untuk open house numun
-                sayangya tidak terbilih untuk di tampilkan,ini adalah aplikasi
-                yang berfungsi untuk mengirim barang seperti gosend tapi ini
-                khusus untuk mengirim barang
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- footer -->
-        <footer>
-          <div id="copyright" align="center">
-            &copy; 2020-2022 Farrell Arrafi Idris
-          </div>
-        </footer>
-      </div>
 
-      <!-- Javascript Local -->
-      <script src="./js/main.js"></script>
-    </div>
+            <div class="project_container">
+              <div class="project">
+                <img src="/image/Project/mlbblist.png" data-aos="fade-right">
+                <p class="project_description" data-aos="fade-left">
+                  <span class="project_title">MLBB herolist</span>
+                  <br>
+                  This is an MLBB hero list application, complete with new heroes, and lots of explanations about these heroes, this application tells a lot about the heroes in MLBB
+                </p>
+              </div>
+          
+            <div class="project_container">
+              <div class="project">
+                <img src="/image/Project/primeplots.png" data-aos="fade-right">
+                <p class="project_description" data-aos="fade-left">
+                  <span class="project_title">PrimePlots</span>
+                  <br>
+                  This is an application to make it easier for us to find the ideal home according to the tagline of this company, namely "Connect Your With Your Ideal Home". This application is like ordinary e-comers but here we can only sell property (houses, apartments, vacant land, ETC) making it easier for people who want to find a house that suits what they want
+                </p>
+              </div>
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstraps JS -->
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"></script>
+
+    <!-- Text Animation -->
+    <script>
+      var typed = new Typed(".type-animation", {
+strings: ["HALO!", "HELLO!", "HOLA!", "HI!", "HEI!", "HEJ!", "AHOJ!", "AUREOLA!", "BONJOUR!", "BUNĂ!", "CIAO!", "CZEŚĆ!", "KALTXI!", "MERHABA!", "NAMASTE!", "OLÀ!", "XIN CHÀO!", "こんにちは!", "สวัสดี!", "안녕하세요!", "ПРИВЕТ!", "ПРИВІТ!", "नमस्ते!", "你好!", "ΓΕΙΑ!", "!مرحبًا"],
+typeSpeed: 160,
+backSpeed: 150,
+loop: true,
+});
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
