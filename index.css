@@ -230,42 +230,43 @@ span {
 
 /* end home */
 
-/* project global */
-.project {
+/* card global */
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.card1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.project1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-/* project */
-.project-container {
+/* card */
+.card-container {
   display: flex;
   flex-direction: row;
 }
 
-.project_main_title {
+.card_main_title {
   padding-top: 50px;
   text-align: center;
   font-size: 40px;
 }
 
-.project_img {
+.card_img {
   display: flex;
   justify-content: center;
   padding-top: 1rem;
   overflow: hidden;
 }
 
-.project_container img {
+.card_container img {
   width: 700px;
   height: 700px;
 }
 
-.project {
+.card {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -274,14 +275,27 @@ span {
   margin-bottom: 1rem;
 }
 
-.project__description {
+.card__description {
   font-size: 20px;
   margin-bottom: 1rem;
 }
 
-.project_title {
+.card_title {
   color: black;
   font-weight: bold;
   font-size: 30px;
 }
-/* end project */
+/* end card */
+
+/* sertifikat */
+
+.card_container_certification img {
+  width: 600px;
+  height: 400px;
+}
+
+.card_main_title_certification {
+  padding: 70px;
+  text-align: center;
+  font-size: 40px;
+}
