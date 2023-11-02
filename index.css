@@ -20,7 +20,6 @@
 
 body {
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
 }
 
 nav {
@@ -298,4 +297,22 @@ span {
   padding: 70px;
   text-align: center;
   font-size: 40px;
+  color: white;
 }
+
+.card_section_sertifikat {
+  background-color: #000000;
+}
+
+.card__description_sertifikat {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.card_title_sertifikat {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
