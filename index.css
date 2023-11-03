@@ -9,6 +9,10 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+html {
+  scroll-behavior: slower;
+}
+
 .bd_grid {
   @media screen and (min-width: 1024px) {
     .bd-grid {
@@ -324,7 +328,7 @@ span {
 }
 
 .card_main_title_experience {
-  padding: 70px;
+  padding: 75px;
   text-align: center;
   font-size: 40px;
   color: rgb(0, 0, 0);
@@ -357,6 +361,7 @@ span {
   padding: 70px;
   font-size: 40px;
   color: white;
+  text-align: center;
 }
 
 .card_section_about {
@@ -375,10 +380,7 @@ span {
   font-size: 30px;
 }
 
-
 /* about */
-
-
 
 .contact__container {
   color: white;
@@ -425,4 +427,9 @@ span {
 
 .contact__form {
   width: 380px;
+}
+
+.card_contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }

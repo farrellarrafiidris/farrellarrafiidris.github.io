@@ -46,39 +46,34 @@ window.addEventListener("scroll", () => {
   }
 });
 
-//   let header = document.querySelector("header");
-//   let menu = document.querySelector("#menu-icon");
-//   let navbar = document.querySelector(".navbar");
+new Kursor({
+  type: 1 /* 1 | 2 | 3 | 4 | 5 */,
+});
 
-//   window.addEventListener("scroll", () => {
-//     header.classList.toggle("shadow", window.scrollY > 0);
-//   });
+new Kursor({
+  el: ".myBox",
+});
 
-//   menu.onclick = () => {
-//     navbar.classList.toggle("active");
-//   };
-//   window.onscroll = () => {
-//     navbar.classList.remove("active");
-//   };
+new Kursor({
+  removeDefaultCursor: true,
+});
 
-// var content = "If life is so blue, then select another colour from the rainbow";
+// Scroll to specific values
+// scrollTo is the same
+window.scroll({
+  top: `2500`,
+  left: 0,
+  behavior: "smooth",
+});
 
-// var ele = "<span>" + content.split("").join("</span><span>") + "</span>";
+// Scroll certain amounts from current position
+window.scrollBy({
+  top: 100, // could be negative value
+  left: 0,
+  behavior: "smooth",
+});
 
-// $(ele)
-//   .hide()
-//   .appendTo("p")
-//   .each(function (i) {
-//     $(this)
-//       .delay(100 * i)
-//       .css({
-//         display: "inline",
-//         opacity: 0,
-//       })
-//       .animate(
-//         {
-//           opacity: 1,
-//         },
-//         100
-//       );
-//   });
+// Scroll to a certain element
+document.querySelector(".hello").scrollIntoView({
+  behavior: "smooth",
+});
